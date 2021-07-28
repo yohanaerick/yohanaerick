@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en' dir='ltr'>
+<head>
+	<title>student clearing form</title>
+</head>
+<body>
+	<canvas id='canvas'>
+	</canvas>
+	<script>
+		let canvas=document.querySelector("canvas").getContext("2d")
+		canvas.fillStyle='blue'
+		//canvas.fillRect(5,5,20,30)
+		canvas.beginPath()
+		canvas.moveTo(5,5)
+		canvas.lineTo(5,30)
+		canvas.lineTo(30,30)
+		canvas.lineTo(30,5)
+		canvas.lineTo(5,5)
+		canvas.fill()
+
+		canvas.beginPath()
+		canvas.arc(80,80,30,Math.PI,2*Math.PI)
+		canvas.stroke()
+
+		//setInterval(moveToo,50)
+
+		a=0
+		function moveToo(){
+			document.getElementById("canvas").style.marginLeft=a+"px"
+			a++
+			if(a==599)a=0
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+.p1 {
+	 float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: gray;
+  height: 200px;
+  text-align: center; 
+}
+.img {
+	background-image: url(1.jpg); 
+	size: 400px;
+	animation-iteration-count: 100px;
+
+}
+h1 {
+	text-align: center;
+	color: red;
+}
+ #main{
+ 	height: 80;
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  
+}
+
+ 
+ nav{
+ 	height: 80px;
+ 	width: 150%;
+ 	background-color: #000;
+ 	line-height: 80px;
+ 	opacity: 100%;
+ }
+
+  nav ul{
+ 	float: left;
+ 	margin-right: 30px;
+ 	font: 150px;
+ }
+ nav ul li{
+ 	list-style-type: none;
+ 	display: inline-block;
+ }
+ nav ul li:hover{
+ 	background-color: #f0f;
+
+
+ }
+ nav ul li a {
+ 	text-decoration: none;
+ 	color: #fff;
+ 	padding: 30px;
+
+ }
+ body{
+ 	background-image: url(4.jpg);
+ 	background-size: cover;
+ 	font-family: Arial, Helvetica, sans-serif;
+ }
+ footer{
+ 	 background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white; 
+ }
+ footer ul li{
+ 	list-style-type: none;
+ 	display: inline-block;
+ }
+ footer ul li:hover{
+ 	background-color: #f0f;
+ b{
+ 	text-align: center;
+ }
+ .hero-section{
+ 	background-image: url(4.jpg);
+ 	height: 80rem;
+ 	background-position: center;
+ 	background-size: cover;
+ 	text-align: center;
+ }
+ .hero-image {
+  background: url(3.jpg) no-repeat center; 
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero1-image {
+  background: url(1.jpg) no-repeat center; 
+  background-size: cover;
+  height: 300px;
+  position: relative;
+}
+
+.hero1-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}

@@ -1,0 +1,207 @@
+<DOCTYPE!html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>skills</title>
+	<link rel="stylesheet" type="text/css" href="h.css">
+</head>
+<body>
+	<p>
+		<div id="main">
+			 <nav>
+			 	
+		<ul>
+		
+      <li><a href="h.html">HOME</a></li>
+      <li><a href="skills.html">SKILLS</a></li>
+      <li><a href="education.html">EDUCATION</a></li>
+      <li><a href="#">WORKING EXPERIENCE</a></li>
+      <li><a href="#">PORTFOLIO</a></li>
+      <li><a href="#">HOBBIES & INTRESTS</a></li>
+      <li><a href="#">CONTACT US</a></li> 
+    </ul>
+     </nav>
+</div>
+	</p>
+	<center>
+<h1>SKILLS</h1>
+<P>
+	<H2>
+		GOOD CUSTOMER SERVICE
+	</H2>
+	<TABLE>
+		<li>operating tills and customer with self service checkout</li>
+		<li>kenya school of coding</li>
+	</TABLE>
+	<h2>
+		programming
+	</h2>
+	<table>
+		<li>PHP</li>
+		<li>SQL</li>
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>JAVA</li>
+		<li>JAVASCRIPT</li>
+		<li>C#</li>
+		<li>ruby on rails</li>
+	</table>
+	<H2>
+		PROJECT PLANNING
+	</H2>
+	<TABLE>
+		<li>UML planning</li>
+		<li>leading teams during drama</li>
+		<li>planning project revolving aroung the community</li>
+	</TABLE>
+	<h2>
+		services we offer
+	</h2>
+	<table>
+		<ol>
+		<li>information technology</li>
+		<li>computer science</li>
+			<li>cyber security</li>
+				<li>computer networking</li>
+					<li>machine lerning</li>
+						<li>data science</li>
+							<li>programming</li>
+								<li>internet of thing</li>
+									<li>web development</li>
+										<li>app development</li>
+									</ul>
+	</table>
+</P>
+<html>
+<head>
+<title>Photo Editor</title>
+<style>
+#d1{
+position:absolute;
+top:15%;
+left:30%;
+text-align:center;
+display: flex;
+justify-content: center;
+align-items: center;
+border:1px solid #000000;
+box-shadow:5px 5px 10px #777777;
+width:400;}
+#d2{
+position:absolute;
+top:25%;
+left:30%;
+width:400;
+height:400;
+text-align:center;
+display: flex;
+justify-content: center;
+align-items: center;
+border:1px solid #000000;
+box-shadow:5px 5px 10px #777777;}
+#d3{
+position:absolute;
+top:25%;
+left:10%;
+text-align:center;
+border:1px solid #000000;
+box-shadow:5px 5px 10px #777777;
+height:400;}
+#r1{
+margin: 0px 10px 0px 10px;}
+#r2{
+margin: 0px 10px 0px 10px;}
+#r3{
+margin: 0px 10px 0px 10px;}
+#r4{
+margin: 0px 10px 0px 10px;}
+#r5{
+margin: 0px 10px 0px 10px;}
+#r6{
+margin: 0px 10px 0px 10px;}
+#r7{
+margin: 0px 10px 0px 10px;}
+#r8{
+margin: 0px 10px 0px 10px;}
+#r9{
+margin: 0px 10px 0px 10px;}
+#r10{
+margin: 0px 10px 0px 10px;}
+#d4{
+position:absolute;
+top:25%;
+left:75%;
+text-align:center;
+border:1px solid #000000;
+box-shadow:5px 5px 10px #777777;
+height:400;}
+</style>
+<script>
+function change(){document.getElementById("i1").src=document.getElementById("t1").value;}
+function r1(x){document.getElementById("i1").style.filter="blur("+(x/20)+"px)";}
+function r2(x){document.getElementById("i1").style.filter="brightness("+(x)+"%)";}
+function r3(x){document.getElementById("i1").style.filter="contrast("+(x*1.8)+"%)";}
+function r4(x){document.getElementById("i1").style.filter="grayscale("+(x)+"%)";}
+function r5(x){document.getElementById("i1").style.filter="hue-rotate("+(x*3.6)+"deg)";}
+function r6(x){document.getElementById("i1").style.filter="invert("+(x)+"%)";}
+function r7(x){document.getElementById("i1").style.filter="opacity("+(x)+"%)";}
+function r8(x){document.getElementById("i1").style.filter="saturate("+(x/10)+")";}
+function r9(x){document.getElementById("i1").style.filter="sepia("+(x)+"%)";}
+function r10(x){document.getElementById("d2").style.backgroundColor=x;}
+</script>
+</head>
+<body>
+<div id="d1">
+<input type="text" placeholder="  Enter url of a photo" id="t1"/><br/><br/>
+<button onclick="change()">Start</button>
+</div>
+<div id="d2">
+<img src="2.jpg" alt="Your Image" width="399px" height="399px" id="i1">
+</div>
+<div id="d3">
+<br/>
+<p>blur</p>
+<input type="range" id="r1" value="0" min="0" max="100" step="10" oninput="r1(this.value)" onchange="r1(this.value)"/><br/>
+<p>brightness</p>
+<input type="range" id="r2" value="0" min="0" max="100" step="10" oninput="r2(this.value)" onchange="r2(this.value)"/><br/>
+<p>contrast</p>
+<input type="range" id="r3" value="0" min="0" max="100" step="10" oninput="r3(this.value)" onchange="r3(this.value)"/><br/>
+<p>grayscale</p>
+<input type="range" id="r4" value="0" min="0" max="100" step="10" oninput="r4(this.value)" onchange="r4(this.value)"/><br/>
+<p>huerotate</p>
+<input type="range" id="r5" value="0" min="0" max="100" step="10" oninput="r5(this.value)" onchange="r5(this.value)"/><br/>
+</div>
+<div id="d4">
+<br/>
+<p>invert</p>
+<input type="range" id="r6" value="0" min="0" max="100" step="10" oninput="r6(this.value)" onchange="r6(this.value)"/><br/>
+<p>opacity</p>
+<input type="range" id="r7" value="0" min="0" max="100" step="10" oninput="r7(this.value)" onchange="r7(this.value)"/><br/>
+<p>saturate</p>
+<input type="range" id="r8" value="0" min="0" max="100" step="10" oninput="r8(this.value)" onchange="r8(this.value)"/><br/>
+<p>sepia</p>
+<input type="range" id="r9" value="0" min="0" max="100" step="10" oninput="r9(this.value)" onchange="r9(this.value)"/><br/>
+<p>color</p>
+<input type="text" id="r10" onchange="r10(this.value)" placeholder="  type color here"/><br/>
+</div>
+</body>
+</html>
+</center>
+	<marquee>
+	<img src="6.jpg"heigth="500"width="500"><img src="13.jpg"heigth="500"width="500"><img src="14.jpg"heigth="500"width="500"><img src="14.jpg"heigth="500"width="500"><img src="3.jpg"heigth="500"width="500"><img src="6.jpg"heigth="500"width="500"><br>
+	the best institution of computer science and it
+	</marquee>
+	<footer>copy right 2021@erick yohana.com<br>follow us on
+	<ul>
+		
+      <li><a href="h.html">HOME</a></li>
+      <li><a href="skills.html">SKILLS</a></li>
+      <li><a href="education.html">EDUCATION</a></li>
+      <li><a href="notes.html">notes</a></li>
+      <li><a href="#">HOBBIES & INTRESTS</a></li>
+      <li><a href="#">CONTACT US</a></li> 
+    </ul> 
+	 </footer>
+	s
+</body>
+</html>
